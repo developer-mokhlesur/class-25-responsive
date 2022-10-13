@@ -1,0 +1,227 @@
+/* Universal CSS Start */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+/* Universal CSS End  */
+/* Fixed-Width CSS Start */
+.fixed-width{
+    width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+/* Fixed-Width CSS End  */
+/* Image CSS Start */
+img{
+    max-width: 100%;
+}
+/* Image CSS End */
+/* Clearfix CSS Start */
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+/* Clearfix CSS End */
+/* Header CSS Start */
+header{
+    background: #22c3a3;
+
+}
+header .logo{
+    float: left;
+    width: 30%;
+}
+header .logo a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 23px 0;
+    font-size: 25px;
+    font-weight: 600;
+}
+header .menu{
+    width: 70%;
+    float: right;
+}
+header .menu ul{
+    list-style: none;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+header .menu ul li{
+    display: inline-block;
+    padding: 0;
+}
+header .menu ul li a {
+	display: inline-block;
+	text-decoration: none;
+	color: #f1efef;
+	margin-left: 30px;
+	padding: 25px 0;
+	font-size: 20px;
+	font-weight: 500;
+}
+/* Header CSS End */
+/* Banner CSS Start */
+.banner{
+    background-image: url("https://i.ibb.co/jwYqYyJ/header-bg01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0;
+    background-position: bottom center;
+}
+.banner h2 {
+    font-size: 50px;
+    font-weight: 600;
+}
+.banner p {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+.banner button.btn-1 {
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+/* Banner CSS End  */
+/* Service CSS Start */
+.service{
+    padding-top: 60px;
+    padding-bottom: 50px;
+    border-bottom: 3px solid #22c3a3;
+}
+.service h2 {
+    font-size: 35px;
+    margin-bottom: 35px;
+    font-weight: 600;
+}
+.service p {
+    margin-bottom: 87px;
+    color: #818181;
+}
+.box-1{
+    width:24%;
+    float: left;
+    margin: 0 auto;
+}
+.box-1 span {
+    font-size: 30px;
+    color: #22c3a3;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.box-1 h3 {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 13px 0;
+}
+.box-1 p {
+    width: 250px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+    color: #818181;
+}
+/* Service CSS End */
+/* About CSS Start */
+.about {
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+.about h2 {
+    font-size: 35px;
+    margin-top: 20px;
+}
+.about .about-p{
+    color: #818181;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.about .about-item{}
+.about .about-item .image{
+    float: left;
+    width:47%;
+}
+.about .about-item .image img{}
+.about .about-item .content-1{
+    float: right;
+    width: 50%;
+}
+.about .about-item .content-1 h3 {
+    font-size: 25px;
+}
+.about-item .content-1 p {
+    text-align: justify;
+    font-size: 15px;
+    color: #818181;
+    margin:  none;
+}
+/* About CSS End */
+/* Contact Us CSS Start */
+.contact{
+    background: #f6f6f6;
+    padding: 6% 0;
+}
+.contact h2{
+    font-weight: 600;
+}
+.contact .con-p {
+    color: #929292;
+    margin-bottom: 4%;
+    margin-top: 2%;
+}
+.contact-item .con-1{
+    float: left;
+    width: 33%;
+}
+.contact-item .con-1 span {
+    color: #22c3a3;
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 2%;
+}
+.contact-item .con-1 p{
+    margin: 0;
+    color: #818181;
+}
+/* Contact Us CSS End */
+/* Icon CSS Start */
+.icon{
+    background: #0dbf9b;
+    padding: 25px 0;
+}
+.icon ul{
+    list-style: none;
+    margin: 0;
+    
+}
+.icon ul li{
+    display: inline-block;
+}
+.icon ul li a {
+    display: inline-block;
+    color: #fff;
+    margin: 0 15px;
+    font-size: 20px;
+}
+/* Icon CSS End */
+/* Footer CSS Start */
+footer{
+    background: #202124;
+}
+footer p{
+    color: #818181;
+    margin: 0;
+    padding: 20px 0;
+    font-size: 19px;
+    font-weight: 600;
+}
+/* Footer CSS End */

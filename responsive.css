@@ -1,0 +1,31 @@
+@media only screen and (max-width: 1250px){
+    .fixed-width {
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+@media only screen and (max-width: 860px){
+    header .logo {
+        width: 100%;
+        text-align: center;
+    }
+    header .menu {
+        width: 100%;
+    }
+    header .menu ul{
+        text-align: center;
+    }
+    header .logo a {
+        font-size: 30px;
+        font-weight: 700;
+        padding-top: 16px;
+    }
+}
+@media only screen and (max-width: 620px){
+    header .menu ul li a {
+        margin-left: 20px;
+        padding-bottom: 20px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
