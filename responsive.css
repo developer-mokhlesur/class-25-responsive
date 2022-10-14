@@ -86,13 +86,13 @@ span.hamba-menu{
         display: block !important;
     }
     .habma-check {
-        position: absolute !important;
+        position: absolute;
         top: 23px;
         right: 8px;
         width: 35px;
         height: 35px;
         opacity: 0;
-        display: block;
+        display: block !important;
     }
     .habma-check:checked ~ ul {
         visibility: visible;
