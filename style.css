@@ -44,6 +44,7 @@ header .logo a {
 header .menu{
     width: 70%;
     float: right;
+    position: relative;
 }
 header .menu ul{
     list-style: none;
@@ -108,9 +109,12 @@ header .menu ul li a {
     color: #818181;
 }
 .box-1{
-    width:24%;
+    width:23.5%;
     float: left;
-    margin: 0 auto;
+   margin-right: 2%;
+}
+.box-1:nth-child(4){
+    margin-right: 0;
 }
 .box-1 span {
     font-size: 30px;
@@ -159,7 +163,7 @@ header .menu ul li a {
     font-size: 25px;
 }
 .about-item .content-1 p {
-    text-align: justify;
+    text-align: center;
     font-size: 15px;
     color: #818181;
     margin:  none;
@@ -201,6 +205,7 @@ header .menu ul li a {
 .icon ul{
     list-style: none;
     margin: 0;
+    padding:0 ;
     
 }
 .icon ul li{
