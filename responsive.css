@@ -83,10 +83,10 @@ span.hamba-menu{
         font-size: 35px;
         color: #fff;
         pointer-events: none;
-        display: block;
+        display: block !important;
     }
     .habma-check {
-        position: absolute;
+        position: absolute !important;
         top: 23px;
         right: 8px;
         width: 35px;
